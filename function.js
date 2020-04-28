@@ -25,10 +25,5 @@ function addItem(product){
 
 }
 console.log(addItem({name:'sociology',marks:88}));
-function sumFunction(obj){
-        return obj.reduce((sum,item)=>{
-              return sum + item.marks;
-       },0)
-      }
-      console.log(sumFunction(myMarks));
+console.log(addItem( { name: 'bangla', marks: 70 }));
 

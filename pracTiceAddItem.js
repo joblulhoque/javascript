@@ -11,3 +11,4 @@ const copyArrayTwo = myMarks.slice();
 
 const updatedMarks = [...myMarks,{name:'sociology',marks:76}];
 console.log(updatedMarks);
+
